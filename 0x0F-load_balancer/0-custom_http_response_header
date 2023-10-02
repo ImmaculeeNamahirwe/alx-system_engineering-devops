@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2016
 # s
-# configures ubuntu serveur with custom header
+# configures ubuntu server with custom header
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y install nginx
