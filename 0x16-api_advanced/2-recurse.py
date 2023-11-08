@@ -6,7 +6,7 @@ containing the titles of all hot articles for a given subreddit
 import requests
 
 
-def recurse(subreddit, hot_list=[], count=0, next_page=None):
+def recurse(subreddit, hot_list=[])
     """return list containing titles of all hot articles"""
     headers = {
         "User-Agent": "0x16. API_advanced-e_kiminza"
